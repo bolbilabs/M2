@@ -32,7 +32,7 @@ public class Person1 {
 	private String calc(String input) {
 	  //Person 1 put your implementation here
 	  String first = input.substring(2);
-    String last = input.substring(0,1);
+    String last = input.substring(0,2);
     String result = first + last;
     return result;
 	}
