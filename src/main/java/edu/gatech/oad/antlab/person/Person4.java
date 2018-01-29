@@ -30,12 +30,9 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-<<<<<<< HEAD
-=======
 
       String result = input;
 
->>>>>>> master
       //Person 4 put your implementation here
       String result = "";
       for (int i = 0; i < input.length(); i++) {
@@ -43,10 +40,7 @@ public class Person4 {
         String s = Character.toString((char) a);
         result += s;
       }
-<<<<<<< HEAD
       String result = input;
-=======
->>>>>>> master
       return result;
     }
 
