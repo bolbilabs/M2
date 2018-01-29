@@ -31,8 +31,6 @@ public class Person4 {
      */
     private String calc(String input) {
 
-      String result = input;
-
       //Person 4 put your implementation here
       String result = "";
       for (int i = 0; i < input.length(); i++) {
@@ -40,7 +38,7 @@ public class Person4 {
         String s = Character.toString((char) a);
         result += s;
       }
-      String result = input;
+
       return result;
     }
 
